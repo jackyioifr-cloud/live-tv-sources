@@ -1,8 +1,11 @@
 #EXTM3U
 # 已验证直播源 2026-06-20 (Android Termux 可用)
-# 来源: best-fan/iptv-sources, hujingguang/ChinaIPTV, freetv.fun, ChiSheng9/iptv
+# 总计: 60+ 频道 | 分类: CCTV / 卫视 / 香港 / 台湾 / 法国
+# 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
 
-# ===== CCTV 央视 (best-fan + freetv.fun) =====
+# ============================================================
+# 📺 CCTV 央视 (17 + 4 备用)
+# ============================================================
 #EXTINF:-1, CCTV-1 综合
 http://69.30.245.50/live/cctv1.m3u8
 #EXTINF:-1, CCTV-2 财经
@@ -37,18 +40,92 @@ http://74.91.26.218:82/live/cctv14hd.m3u8
 http://222.223.41.27:8888/hls/15/index.m3u8
 #EXTINF:-1, CCTV-17 农业农村
 http://74.91.26.218:82/live/cctv17hd.m3u8
-
-# ===== CCTV 备用 (freetv.fun) =====
-#EXTINF:-1, CCTV-1 备用
+#EXTINF:-1, CCTV-1 备用 (freetv)
 https://t.freetv.fun/live/cctv1-1.m3u8
-#EXTINF:-1, CCTV-2 备用
+#EXTINF:-1, CCTV-2 备用 (freetv)
 https://t.freetv.fun/live/cctv2-1.m3u8
-#EXTINF:-1, CCTV-5 备用
+#EXTINF:-1, CCTV-5 备用 (freetv)
 https://t.freetv.fun/live/cctv5-1.m3u8
-#EXTINF:-1, CCTV-13 备用
+#EXTINF:-1, CCTV-13 备用 (freetv)
 https://t.freetv.fun/live/cctv13-1.m3u8
 
-# ===== 凤凰卫视 =====
+# ============================================================
+# 📺 省级卫视 (31)
+# ============================================================
+#EXTINF:-1, 北京卫视
+http://222.90.21.30:9901/hls/23/index.m3u8
+#EXTINF:-1, 湖南卫视
+http://198.204.228.26/live/hnwshd.m3u8
+#EXTINF:-1, 东方卫视
+http://60.10.139.113:8801/hls/22/index.m3u8
+#EXTINF:-1, 四川卫视
+http://198.204.228.26/live/scwshd.m3u8
+#EXTINF:-1, 天津卫视
+http://222.90.21.30:9901/hls/43/index.m3u8
+#EXTINF:-1, 安徽卫视
+http://222.90.21.30:9901/hls/31/index.m3u8
+#EXTINF:-1, 山东卫视
+http://222.90.21.30:9901/hls/32/index.m3u8
+#EXTINF:-1, 广东卫视
+http://222.90.21.30:9901/hls/33/index.m3u8
+#EXTINF:-1, 广西卫视
+http://222.90.21.30:9901/hls/36/index.m3u8
+#EXTINF:-1, 江苏卫视
+http://222.90.21.30:9901/hls/24/index.m3u8
+#EXTINF:-1, 江西卫视
+http://222.90.21.30:9901/hls/42/index.m3u8
+#EXTINF:-1, 河北卫视
+http://222.90.21.30:9901/hls/38/index.m3u8
+#EXTINF:-1, 河南卫视
+http://222.90.21.30:9901/hls/34/index.m3u8
+#EXTINF:-1, 浙江卫视
+http://222.90.21.30:9901/hls/25/index.m3u8
+#EXTINF:-1, 深圳卫视
+http://222.90.21.30:9901/hls/27/index.m3u8
+#EXTINF:-1, 湖北卫视
+http://222.90.21.30:9901/hls/39/index.m3u8
+#EXTINF:-1, 东南卫视
+http://222.90.21.30:9901/hls/41/index.m3u8
+#EXTINF:-1, 海南卫视
+http://222.90.21.30:9901/hls/44/index.m3u8
+#EXTINF:-1, 云南卫视
+http://222.90.21.30:9901/hls/46/index.m3u8
+#EXTINF:-1, 吉林卫视
+http://222.90.21.30:9901/hls/40/index.m3u8
+#EXTINF:-1, 辽宁卫视
+http://222.90.21.30:9901/hls/37/index.m3u8
+#EXTINF:-1, 重庆卫视
+http://222.90.21.30:9901/hls/45/index.m3u8
+#EXTINF:-1, 陕西卫视
+http://222.90.21.30:9901/hls/47/index.m3u8
+#EXTINF:-1, 山西卫视
+http://222.90.21.30:9901/hls/35/index.m3u8
+#EXTINF:-1, 甘肃卫视
+http://222.90.21.30:9901/hls/48/index.m3u8
+#EXTINF:-1, 贵州卫视
+http://222.90.21.30:9901/hls/49/index.m3u8
+#EXTINF:-1, 黑龙江卫视
+http://222.90.21.30:9901/hls/50/index.m3u8
+#EXTINF:-1, 内蒙古卫视
+http://222.90.21.30:9901/hls/51/index.m3u8
+#EXTINF:-1, 新疆卫视
+http://222.90.21.30:9901/hls/52/index.m3u8
+#EXTINF:-1, 宁夏卫视
+http://222.90.21.30:9901/hls/53/index.m3u8
+#EXTINF:-1, 青海卫视
+http://222.90.21.30:9901/hls/54/index.m3u8
+#EXTINF:-1, 三沙卫视
+http://222.90.21.30:9901/hls/55/index.m3u8
+#EXTINF:-1, 兵团卫视
+http://222.90.21.30:9901/hls/56/index.m3u8
+#EXTINF:-1, 台湾卫视
+http://222.90.21.30:9901/hls/57/index.m3u8
+#EXTINF:-1, 西藏卫视
+http://222.90.21.30:9901/hls/58/index.m3u8
+
+# ============================================================
+# 📺 凤凰卫视 (4)
+# ============================================================
 #EXTINF:-1, 凤凰中文
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 #EXTINF:-1, 凤凰资讯
@@ -58,7 +135,9 @@ http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
 #EXTINF:-1, 凤凰中文(备)
 http://218.206.193.218:8888/hls/66/index.m3u8
 
-# ===== 香港 =====
+# ============================================================
+# 📺 香港 (5)
+# ============================================================
 #EXTINF:-1, 香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1, TVB 无线新闻台
@@ -67,10 +146,12 @@ http://r.jdshipin.com/CkuBd
 https://t.freetv.fun/live/hk-1.m3u8
 #EXTINF:-1, TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1, 明珠台 (pearl)
+#EXTINF:-1, 明珠台 (Beautiful Life TV)
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 
-# ===== 台湾 =====
+# ============================================================
+# 📺 台湾 (18)
+# ============================================================
 #EXTINF:-1, 华视HD
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
 #EXTINF:-1, 民视新闻HD
@@ -107,3 +188,27 @@ https://ythls.armelin.one/channel/UCiWRSesvSYmY7YOyz0tv_zQ.m3u8
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1, DaAi 2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+
+# ============================================================
+# 📺 法国 (10)
+# ============================================================
+#EXTINF:-1, France 2
+http://69.64.57.208/france2/mono.m3u8
+#EXTINF:-1, France 5
+http://69.64.57.208/france5/mono.m3u8
+#EXTINF:-1, France 24 Arabic
+https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
+#EXTINF:-1, BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1, BFM Business
+https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1, 20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1, Arte
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1, Africa 24
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1, Canal 32
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+#EXTINF:-1, Antenne Réunion
+https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
