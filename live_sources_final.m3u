@@ -67,7 +67,7 @@ http://222.90.21.30:9901/hls/31/index.m3u8
 #EXTINF:-1, 山东卫视
 http://222.90.21.30:9901/hls/32/index.m3u8
 #EXTINF:-1, 广东卫视
-http://222.90.21.30:9901/hls/33/index.m3u8
+http://204.12.221.218:8181/3m1080p/gdws.m3u8
 #EXTINF:-1, 广西卫视
 http://222.90.21.30:9901/hls/36/index.m3u8
 #EXTINF:-1, 江苏卫视
@@ -97,23 +97,23 @@ http://222.90.21.30:9901/hls/37/index.m3u8
 #EXTINF:-1, 重庆卫视
 http://222.90.21.30:9901/hls/45/index.m3u8
 #EXTINF:-1, 陕西卫视
-http://222.90.21.30:9901/hls/47/index.m3u8
+http://36.32.174.67:60080/newlive/live/hls/47/live.m3u8
 #EXTINF:-1, 山西卫视
 http://222.90.21.30:9901/hls/35/index.m3u8
 #EXTINF:-1, 甘肃卫视
-http://222.90.21.30:9901/hls/48/index.m3u8
+http://58.56.162.102:4466/newlive/live/hls/44/live.m3u8
 #EXTINF:-1, 贵州卫视
-http://222.90.21.30:9901/hls/49/index.m3u8
+http://58.56.162.102:4466/newlive/live/hls/40/live.m3u8
 #EXTINF:-1, 黑龙江卫视
-http://222.90.21.30:9901/hls/50/index.m3u8
+http://204.12.221.218:8181/3m1080p/hljws.m3u8
 #EXTINF:-1, 内蒙古卫视
-http://222.90.21.30:9901/hls/51/index.m3u8
+http://204.12.221.218:8181/3m1080p/nmgws.m3u8
 #EXTINF:-1, 新疆卫视
-http://222.90.21.30:9901/hls/52/index.m3u8
+http://204.12.221.218:8181/3m1080p/xjws.m3u8
 #EXTINF:-1, 宁夏卫视
-http://222.90.21.30:9901/hls/53/index.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
 #EXTINF:-1, 青海卫视
-http://222.90.21.30:9901/hls/54/index.m3u8
+http://204.12.221.218:8181/3m1080p/qhws.m3u8
 #EXTINF:-1, 三沙卫视
 http://222.90.21.30:9901/hls/55/index.m3u8
 #EXTINF:-1, 兵团卫视
