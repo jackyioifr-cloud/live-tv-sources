@@ -1,5 +1,5 @@
 #EXTM3U
-# 已验证直播源 2026-06-20 | 总计: 93 频道
+# 已验证直播源 2026-06-22 | 总计: 85 频道
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
 
 # === CCTV央视 (21) ===
@@ -122,61 +122,29 @@ http://222.90.21.30:9901/hls/58/index.m3u8
 #EXTINF:-1 group-title="凤凰卫视", 凤凰中文
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 #EXTINF:-1 group-title="凤凰卫视", 凤凰资讯
-http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 group-title="凤凰卫视", 凤凰香港
-http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
+http://r.jdshipin.com/yDoTN
 #EXTINF:-1 group-title="凤凰卫视", 凤凰中文(备)
-http://218.206.193.218:8888/hls/66/index.m3u8
+http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8
 
-# === 香港 (5) ===
+# === 香港 (6) ===
 #EXTINF:-1 group-title="香港", 香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="香港", TVB 翡翠台
+http://r.jdshipin.com/qrfbg
 #EXTINF:-1 group-title="香港", TVB 无线新闻台
 http://r.jdshipin.com/CkuBd
-#EXTINF:-1 group-title="香港", 香港-1
+#EXTINF:-1 group-title="香港", 香港国际财经台
 https://t.freetv.fun/live/hk-1.m3u8
 #EXTINF:-1 group-title="香港", TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 group-title="香港", 明珠台
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 
-# === 台湾 (18) ===
-#EXTINF:-1 group-title="台湾", 华视HD
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
-#EXTINF:-1 group-title="台湾", 民视新闻HD
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-#EXTINF:-1 group-title="台湾", 东森财经新闻
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
-#EXTINF:-1 group-title="台湾", 寰宇新闻台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
-#EXTINF:-1 group-title="台湾", Momo 1
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
-#EXTINF:-1 group-title="台湾", Momo 2
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
-#EXTINF:-1 group-title="台湾", ET Mall 60
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
-#EXTINF:-1 group-title="台湾", CTi News
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
-#EXTINF:-1 group-title="台湾", Genius Go Go Go
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
-#EXTINF:-1 group-title="台湾", Taiwan Plus TV
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV78.m3u8
+# === 台湾 (1) ===
 #EXTINF:-1 group-title="台湾", Dali TV
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 group-title="台湾", FTV News
-https://ythls.armelin.one/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
-#EXTINF:-1 group-title="台湾", SET iNews
-https://ythls.armelin.one/channel/UCoNYj9OFHZn3ACmmeRCPwbA.m3u8
-#EXTINF:-1 group-title="台湾", TTV News
-https://ythls.armelin.one/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
-#EXTINF:-1 group-title="台湾", mnews
-https://ythls.armelin.one/channel/UC4LjkybVKXCDlneVXlKAbmw.m3u8
-#EXTINF:-1 group-title="台湾", EBC YOYO
-https://ythls.armelin.one/channel/UCiWRSesvSYmY7YOyz0tv_zQ.m3u8
-#EXTINF:-1 group-title="台湾", DaAi 1
-https://pulltv1.wanfudaluye.com/live/tv1.m3u8
-#EXTINF:-1 group-title="台湾", DaAi 2
-https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 
 # === 法国 (10) ===
 #EXTINF:-1 group-title="法国", France 2
