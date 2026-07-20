@@ -1,17 +1,29 @@
 #EXTM3U
-# 已验证直播源 2026-07-19 | 基于vbskycn 2026-07-07更新
+# 已验证直播源 2026-07-20 | 境外可用
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
-# 验证标准：M3U8格式有效 + TS同步字节(0x47)
+# 严格验证: TS同步字节0x47
 
 # === 法国 (1) - 官方稳定源 ===
 #EXTINF:-1 group-title="法国", France 24 Arabic
 https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
 
-# === CCTV央视 (6) - 备用源需境内网络 ===
+# === CCTV (2) - 经TS验证可用 ===
 #EXTINF:-1 group-title="CCTV央视", CCTV-5 体育
 http://112.46.85.60:8009/hls/503/index.m3u8
 #EXTINF:-1 group-title="CCTV央视", CCTV-5+ 体育赛事
 http://112.27.235.94:8000/hls/6/index.m3u8
 #EXTINF:-1 group-title="CCTV央视", CCTV-6 电影
 http://112.27.235.94:8000/hls/7/index.m3u8
+
+# === 香港 (2) - 官方备源 ===
+#EXTINF:-1 group-title="香港", CGTN 英文
+https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+
+# === 备用CCTV源 (境内网络可用) ===
+#EXTINF:-1 group-title="CCTV央视", CCTV-1 综合
+http://222.169.85.8:9901/tsfile/live/0001_1.m3u8
+#EXTINF:-1 group-title="CCTV央视", CCTV-2 财经
+http://222.169.85.8:9901/tsfile/live/0002_1.m3u8
+#EXTINF:-1 group-title="CCTV央视", CCTV-3 综艺
+http://222.169.85.8:9901/tsfile/live/0003_1.m3u8
 
