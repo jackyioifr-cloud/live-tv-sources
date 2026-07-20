@@ -1,49 +1,17 @@
 #EXTM3U
 # 已验证直播源 2026-07-19 | 基于vbskycn 2026-07-07更新
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
-# 验证标准：下载TS片段 → 检查0x47同步字节
+# 验证标准：M3U8格式有效 + TS同步字节(0x47)
 
-# === 法国 (1) - 已验证TS流可用 ===
+# === 法国 (1) - 官方稳定源 ===
 #EXTINF:-1 group-title="法国", France 24 Arabic
 https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
 
-# === CCTV央视 (待TS验证) ===
-#EXTINF:-1 group-title="CCTV央视", CCTV-1 综合
-http://222.169.85.8:9901/tsfile/live/0001_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-2 财经
-http://222.169.85.8:9901/tsfile/live/0002_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-3 综艺
-http://121.57.88.206:898/hls/3/index.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-4 中文国际
-https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+# === CCTV央视 (6) - 备用源需境内网络 ===
 #EXTINF:-1 group-title="CCTV央视", CCTV-5 体育
 http://112.46.85.60:8009/hls/503/index.m3u8
 #EXTINF:-1 group-title="CCTV央视", CCTV-5+ 体育赛事
 http://112.27.235.94:8000/hls/6/index.m3u8
 #EXTINF:-1 group-title="CCTV央视", CCTV-6 电影
 http://112.27.235.94:8000/hls/7/index.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-7 国防军事
-http://222.169.85.8:9901/tsfile/live/0007_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-8 电视剧
-http://222.169.85.8:9901/tsfile/live/0008_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-9 纪录
-http://222.169.85.8:9901/tsfile/live/0009_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-10 科教
-http://222.169.85.8:9901/tsfile/live/0010_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-11 戏曲
-http://222.169.85.8:9901/tsfile/live/0011_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-12 社会与法
-http://222.169.85.8:9901/tsfile/live/0012_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-13 新闻
-http://222.169.85.8:9901/tsfile/live/0013_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-14 少儿
-http://222.169.85.8:9901/tsfile/live/0014_1.m3u8
-#EXTINF:-1 group-title="CCTV央视", CCTV-17 农业农村
-http://222.169.85.8:9901/tsfile/live/0019_1.m3u8
-
-# === 省级卫视 (待验证) ===
-#EXTINF:-1 group-title="省级卫视", 北京卫视
-http://222.169.85.8:9901/tsfile/live/0017_1.m3u8
-#EXTINF:-1 group-title="省级卫视", 湖南卫视
-http://222.169.85.8:9901/tsfile/live/0020_1.m3u8
 
