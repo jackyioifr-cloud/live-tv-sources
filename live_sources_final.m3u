@@ -1,310 +1,112 @@
 #EXTM3U
-# 验证直播源 - 境外可用 (最高画质 + 多备选)
+# 验证直播源 2026-07-24 00:11 | 境外可用
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
-# 每个频道保留多个备选 URL，遇到故障播放器自动切换
-# === CCTV (境外可用, 多备选) ===
-#EXTINF:-1 tvg-id="cctv8k.cn@HD",CCTV 8K
-https://t.freetv.fun/live/cctv-8-1.m3u8
-https://t.freetv.fun/live/cctv-8-2.m3u8
-https://t.freetv.fun/live/cctv-8kchao-gao-qing.m3u8
-https://t.freetv.fun/live/cctv-8kchao-gao-qing-1.m3u8
-https://t.freetv.fun/live/cctv-8hd-1.m3u8
-https://t.freetv.fun/live/cctv-8hd-2.m3u8
-https://t.freetv.fun/live/cctv-8kchao-gao-qing-2.m3u8
-https://t.freetv.fun/live/cctv-8hd-3.m3u8
-#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV-戲曲
-https://t.freetv.fun/live/cctv-11xi-qu.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-1.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-2.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-3.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-4.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-5.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-6.m3u8
-https://t.freetv.fun/live/cctv-11xi-qu-7.m3u8
-#EXTINF:-1 tvg-id="cctv1.cn@HD",CCTV1
-https://t.freetv.fun/live/cctv1-6.m3u8
-https://t.freetv.fun/live/cctv1.m3u8
-https://t.freetv.fun/live/cctv1-5.m3u8
-#EXTINF:-1 tvg-id="cctv10.cn@HD",CCTV10
-https://t.freetv.fun/live/cctv10.m3u8
-https://t.freetv.fun/live/cctv10-5.m3u8
-https://t.freetv.fun/live/cctv10-6.m3u8
-https://t.freetv.fun/live/cctv-10ke-jiao-1.m3u8
-https://t.freetv.fun/live/cctv10-8.m3u8
-https://t.freetv.fun/live/cctv10-4.m3u8
-https://t.freetv.fun/live/cctv10-7.m3u8
-https://t.freetv.fun/live/cctv-10.m3u8
-#EXTINF:-1 tvg-id="cctv11.cn@HD",CCTV11
-https://t.freetv.fun/live/cctv11.m3u8
-https://t.freetv.fun/live/cctv11-2.m3u8
-https://t.freetv.fun/live/cctv11-3.m3u8
-https://t.freetv.fun/live/cctv11-1.m3u8
-https://t.freetv.fun/live/cctv11-4.m3u8
-https://t.freetv.fun/live/cctv11-7.m3u8
-https://t.freetv.fun/live/cctv11xi-qu.m3u8
-https://t.freetv.fun/live/cctv11-xi-qu.m3u8
-#EXTINF:-1 tvg-id="cctv12.cn@HD",CCTV12
-https://t.freetv.fun/live/cctv12-1.m3u8
-https://t.freetv.fun/live/cctv12-7.m3u8
-https://t.freetv.fun/live/cctv12-10.m3u8
-https://t.freetv.fun/live/cctv12-12.m3u8
-https://t.freetv.fun/live/cctv12-4.m3u8
-https://t.freetv.fun/live/cctv12-6.m3u8
-https://t.freetv.fun/live/cctv12-9.m3u8
-https://t.freetv.fun/live/cctv-12.m3u8
-#EXTINF:-1 tvg-id="cctv13.cn@HD",CCTV13
-https://t.freetv.fun/live/cctv13-4.m3u8
-https://t.freetv.fun/live/cctv13-1.m3u8
-https://t.freetv.fun/live/cctv13-3.m3u8
-https://t.freetv.fun/live/cctv13-2.m3u8
-https://t.freetv.fun/live/cctv13-6.m3u8
-https://t.freetv.fun/live/cctv13xin-wen.m3u8
-https://t.freetv.fun/live/cctv-13-2.m3u8
-https://t.freetv.fun/live/cctv-13xin-wen.m3u8
-#EXTINF:-1 tvg-id="cctv14.cn@HD",CCTV14
-https://t.freetv.fun/live/cctv14.m3u8
-https://t.freetv.fun/live/cctv14-4.m3u8
-https://t.freetv.fun/live/cctv14-8.m3u8
-https://t.freetv.fun/live/cctv14-9.m3u8
-https://t.freetv.fun/live/cctv14-3.m3u8
-https://t.freetv.fun/live/cctv-14shao-er.m3u8
-https://t.freetv.fun/live/cctv14-6.m3u8
-https://t.freetv.fun/live/cctv14shao-er.m3u8
-#EXTINF:-1 tvg-id="cctv15.cn@HD",CCTV15
-https://t.freetv.fun/live/cctv15-2.m3u8
-https://t.freetv.fun/live/cctv15-4.m3u8
-https://t.freetv.fun/live/cctv15-12.m3u8
-https://t.freetv.fun/live/cctv15.m3u8
-https://t.freetv.fun/live/cctv15-5.m3u8
-https://t.freetv.fun/live/cctv15-8.m3u8
-https://t.freetv.fun/live/cctv15-10.m3u8
-https://t.freetv.fun/live/cctv15-11.m3u8
-#EXTINF:-1 tvg-id="cctv16.cn@HD",CCTV16
-https://t.freetv.fun/live/cctv16-3.m3u8
-https://t.freetv.fun/live/cctv16-2.m3u8
-https://t.freetv.fun/live/cctv-16.m3u8
-https://t.freetv.fun/live/cctv-16hd-2.m3u8
-https://t.freetv.fun/live/cctv-16hd-3.m3u8
-#EXTINF:-1 tvg-id="cctv17.cn@HD",CCTV17
-https://t.freetv.fun/live/cctv17-1.m3u8
-https://t.freetv.fun/live/cctv17-6.m3u8
-https://t.freetv.fun/live/cctv17-15.m3u8
-https://t.freetv.fun/live/cctv17-16.m3u8
-https://t.freetv.fun/live/cctv-17-1.m3u8
-https://t.freetv.fun/live/cctv-17-2.m3u8
-https://t.freetv.fun/live/cctv-17hd.m3u8
-https://t.freetv.fun/live/cctv-17hd-1.m3u8
-#EXTINF:-1 tvg-id="cctv2.cn@HD",CCTV2
-https://t.freetv.fun/live/cctv2-1.m3u8
-https://t.freetv.fun/live/cctv2-2.m3u8
-https://t.freetv.fun/live/cctv2-5.m3u8
-https://t.freetv.fun/live/cctv2-7.m3u8
-https://t.freetv.fun/live/cctv2-8.m3u8
-https://t.freetv.fun/live/cctv22.m3u8
-https://t.freetv.fun/live/cctv2-3.m3u8
-https://t.freetv.fun/live/cctv2cai-jing.m3u8
-#EXTINF:-1 tvg-id="cctv3.cn@HD",CCTV3
-https://t.freetv.fun/live/cctv3-1.m3u8
-https://t.freetv.fun/live/cctv3-2.m3u8
-https://t.freetv.fun/live/cctv3-12.m3u8
-https://t.freetv.fun/live/cctv3-7.m3u8
-https://t.freetv.fun/live/cctv3-4.m3u8
-https://t.freetv.fun/live/cctv3-10.m3u8
-https://t.freetv.fun/live/cctv3zong-yi.m3u8
-https://t.freetv.fun/live/cctv-3-3.m3u8
-#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4
-https://t.freetv.fun/live/cctv4-1.m3u8
-https://t.freetv.fun/live/cctv4ou-zhou.m3u8
-#EXTINF:-1 tvg-id="cctv4fhd.cn@HD",CCTV4 FHD
-https://t.freetv.fun/live/cctv4-2.m3u8
-https://t.freetv.fun/live/cctv4k.m3u8
-https://t.freetv.fun/live/cctv4ou-zhou-1.m3u8
-https://t.freetv.fun/live/cctv4mei-zhou-1.m3u8
-https://t.freetv.fun/live/cctv4-33.m3u8
-https://t.freetv.fun/live/cctv-4hd.m3u8
-https://t.freetv.fun/live/cctv-4-1.m3u8
-https://t.freetv.fun/live/cctv4k-3.m3u8
-#EXTINF:-1 tvg-id="cctv4k.cn@HD",CCTV4K
-https://t.freetv.fun/live/cctv-4kgao-qing.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-1.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-2.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-3.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-4.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-5.m3u8
-https://t.freetv.fun/live/cctv-4kgao-qing-6.m3u8
-#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4中文國際歐洲
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-1.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-2.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-3.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-4.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-5.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-6.m3u8
-https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji-7.m3u8
-#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4中文國際美洲
-https://t.freetv.fun/live/cctv4zhong-wen-guo-ji.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-1.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-2.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-3.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-4.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-5.m3u8
-https://t.freetv.fun/live/cctv-4-zhong-wen-guo-ji-6.m3u8
-#EXTINF:-1 tvg-id="cctv5.cn@HD",CCTV5
-https://t.freetv.fun/live/cctv5.m3u8
-https://t.freetv.fun/live/cctv5-8.m3u8
-https://t.freetv.fun/live/cctv5-11.m3u8
-https://t.freetv.fun/live/cctv5-12.m3u8
-https://t.freetv.fun/live/cctv52.m3u8
-https://t.freetv.fun/live/cctv5-2.m3u8
-https://t.freetv.fun/live/cctv5-9.m3u8
-https://t.freetv.fun/live/cctv5-10.m3u8
-#EXTINF:-1 tvg-id="cctv5.cn@HD",CCTV5+
-https://t.freetv.fun/live/cctv5-plus-2.m3u8
-https://t.freetv.fun/live/cctv5-plus-6.m3u8
-https://t.freetv.fun/live/cctv5-plus-1.m3u8
-https://t.freetv.fun/live/cctv5-plus-3.m3u8
-https://t.freetv.fun/live/cctv5-plus-4.m3u8
-https://t.freetv.fun/live/cctv5-plus-5.m3u8
-https://t.freetv.fun/live/cctv5-plus-7.m3u8
-https://t.freetv.fun/live/cctv5-plus-10.m3u8
-#EXTINF:-1 tvg-id="cctv6.cn@HD",CCTV6
-https://t.freetv.fun/live/cctv6.m3u8
-https://t.freetv.fun/live/cctv6-1.m3u8
-https://t.freetv.fun/live/cctv6-6.m3u8
-https://t.freetv.fun/live/cctv6-7.m3u8
-https://t.freetv.fun/live/cctv6-2.m3u8
-https://t.freetv.fun/live/cctv6-3.m3u8
-https://t.freetv.fun/live/cctv6dian-ying.m3u8
-https://t.freetv.fun/live/cctv-6.m3u8
-#EXTINF:-1 tvg-id="cctv7.cn@HD",CCTV7
-https://t.freetv.fun/live/cctv7.m3u8
-https://t.freetv.fun/live/cctv7-2.m3u8
-https://t.freetv.fun/live/cctv7-3.m3u8
-https://t.freetv.fun/live/cctv7-4.m3u8
-https://t.freetv.fun/live/cctv7-7.m3u8
-https://t.freetv.fun/live/cctv-7.m3u8
-https://t.freetv.fun/live/cctv-4kchao-gao-qing.m3u8
-https://t.freetv.fun/live/cctv-7-2.m3u8
-#EXTINF:-1 tvg-id="cctv8.cn@HD",CCTV8
-https://t.freetv.fun/live/cctv8-2.m3u8
-https://t.freetv.fun/live/cctv8-9.m3u8
-https://t.freetv.fun/live/cctv8-5.m3u8
-https://t.freetv.fun/live/cctv8-8.m3u8
-https://t.freetv.fun/live/cctv8-10.m3u8
-https://t.freetv.fun/live/cctv8hd-1.m3u8
-#EXTINF:-1 tvg-id="cctv9.cn@HD",CCTV9
-https://t.freetv.fun/live/cctv9-1.m3u8
-https://t.freetv.fun/live/cctv9-5.m3u8
-https://t.freetv.fun/live/cctv9-6.m3u8
-https://t.freetv.fun/live/cctv9-8.m3u8
-https://t.freetv.fun/live/cctv9-9.m3u8
-https://t.freetv.fun/live/cctv9-2.m3u8
-https://t.freetv.fun/live/cctv9-7.m3u8
-https://t.freetv.fun/live/cctv9-10.m3u8
-#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV第一劇場
-https://t.freetv.fun/live/cctvdi-yi-ju-chang-2.m3u8
-https://t.freetv.fun/live/cctv-di-yi-ju-chang.m3u8
-https://t.freetv.fun/live/cctv-di-yi-ju-chang-1.m3u8
-https://t.freetv.fun/live/cctv-di-yi-ju-chang-2.m3u8
-https://t.freetv.fun/live/cctv-di-yi-ju-chang-3.m3u8
-#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV風雲足球
-https://t.freetv.fun/live/cctv-feng-yun-zu-qiu.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-zu-qiu-1.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-zu-qiu-2.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-zu-qiu-3.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-zu-qiu-4.m3u8
-#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV風雲音樂
-https://t.freetv.fun/live/cctv-feng-yun-yin-le-1.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-yin-le-2.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-yin-le-3.m3u8
-https://t.freetv.fun/live/cctv-feng-yun-yin-le-4.m3u8
-#EXTINF:-1 tvg-id="cgtn.cn@HD",CGTN
-https://t.freetv.fun/live/cgtn-1.m3u8
-#EXTINF:-1 tvg-id="cgtndocumentary.cn@HD",CGTN Documentary
-https://t.freetv.fun/live/cgtn-documentary.m3u8
-https://t.freetv.fun/live/cgtn-documentary-1.m3u8
-https://t.freetv.fun/live/cgtn-documentary-2.m3u8
-https://t.freetv.fun/live/rt-documentary.m3u8
-https://t.freetv.fun/live/rt-documentary-1.m3u8
-https://t.freetv.fun/live/cgtn-documentary-1080p.m3u8
-#EXTINF:-1 tvg-id="cgtnespaol.cn@HD",CGTN Español
-https://t.freetv.fun/live/cgtn-espanol.m3u8
-#EXTINF:-1 tvg-id="cgtnfranais.cn@HD",CGTN Français
-https://t.freetv.fun/live/cgtn-francais.m3u8
-https://t.freetv.fun/live/cgtn-francais-2.m3u8
-#EXTINF:-1 tvg-id="cgtnp.cn@HD",CGTN Pусский
-https://t.freetv.fun/live/cgtn-russkii-1.m3u8
+# 统计: 总测试=557, 通过=50, 失败=430, 过滤=77
 
-# === HK (境外可用, 多备选) ===
-#EXTINF:-1 tvg-id="animax.cn@HD",Animax(HK)
-https://t.freetv.fun/live/cctv-8dian-shi-ju.m3u8
-https://t.freetv.fun/live/cctv-5ti-yu.m3u8
-https://t.freetv.fun/live/cctv-1zong-he-1.m3u8
-https://t.freetv.fun/live/cctv-9ji-lu.m3u8
-#EXTINF:-1 tvg-id="cctv1.cn@HD",CCTV1(RTHK33)
-https://t.freetv.fun/live/cctv1-3.m3u8
-https://t.freetv.fun/live/cctv1zong-he.m3u8
-https://t.freetv.fun/live/cctv-1hd.m3u8
-https://t.freetv.fun/live/cctv-1hd-1.m3u8
-https://t.freetv.fun/live/cctv-1hd-2.m3u8
-https://t.freetv.fun/live/cctv-1-1.m3u8
-https://t.freetv.fun/live/cctv-4kchao-gao-qing-1.m3u8
-https://t.freetv.fun/live/cctv-4kchao-gao-qing-2.m3u8
-#EXTINF:-1 tvg-id="discoverykids.cn@HD",Discovery Kids
-https://t.freetv.fun/live/discovery-kids-1.m3u8
-#EXTINF:-1 tvg-id="hoytv.cn@HD",HOY TV
-https://t.freetv.fun/live/hoytv.php
-#EXTINF:-1 tvg-id="moviemovie.cn@HD",MOVIE MOVIE
-https://t.freetv.fun/live/mytime-movie-network-2.m3u8
-#EXTINF:-1 tvg-id="now.cn@HD",NOW 新聞臺
-https://t.freetv.fun/live/nowxin-wen.php
-#EXTINF:-1 tvg-id="now.cn@HD",NOW 星影臺
-https://t.freetv.fun/live/nowxing-ying.m3u8
-#EXTINF:-1 tvg-id="now.cn@HD",NOW爆谷台
-https://t.freetv.fun/live/nowbao-gu.m3u8
-#EXTINF:-1 tvg-id="rthk31.cn@HD",RTHK31
-https://t.freetv.fun/live/rthk31.php
-#EXTINF:-1 tvg-id="rthk32.cn@HD",RTHK32
-https://t.freetv.fun/live/rthk32.php
-https://t.freetv.fun/live/rthk32-1.m3u8
-#EXTINF:-1 tvg-id="sportsplus1.cn@HD",Sports Plus 1
-https://t.freetv.fun/live/cowboy-plus-sports.m3u8
-#EXTINF:-1 tvg-id="tvbplus.cn@HD",TVB Plus
-https://t.freetv.fun/live/atv-plus.m3u8
-https://t.freetv.fun/live/tvb-plus-3.m3u8
-#EXTINF:-1 tvg-id="tvb.cn@HD",TVB 亞洲武俠
-https://t.freetv.fun/live/asian.m3u8
-#EXTINF:-1 tvg-id="tvb.cn@HD",TVB星河(粵)
-https://t.freetv.fun/live/tvbxing-he.m3u8
-https://t.freetv.fun/live/tvbxing-he-2.php
-#EXTINF:-1 tvg-id="viutvhd.cn@HD",ViuTV HD
-https://t.freetv.fun/live/viutv.php
-#EXTINF:-1 tvg-id="ch75610.cn@HD",周星馳專輯
-https://t.freetv.fun/live/zhou-xing-chi-dian-ying-4.m3u8
-#EXTINF:-1 tvg-id="ch9293.cn@HD",周潤發專輯
-https://t.freetv.fun/live/zhou-run-fa-dian-ying-4.m3u8
-#EXTINF:-1 tvg-id="ch99647.cn@HD",星空衛視
-https://t.freetv.fun/live/xing-kong-wei-shi.m3u8
-#EXTINF:-1 tvg-id="ch37388.cn@HD",林正英
-https://t.freetv.fun/live/lin-zheng-ying-ying-yuan-4.m3u8
-#EXTINF:-1 tvg-id="ch90361.cn@HD",無線新聞台
-https://t.freetv.fun/live/wu-xian-xin-wen.php
-https://t.freetv.fun/live/wu-xian-xin-wen-b.php
-#EXTINF:-1 tvg-id="ch91714.cn@HD",翡翠台
-https://t.freetv.fun/live/fei-cui-tai.m3u8
-https://t.freetv.fun/live/fei-cui.php
-https://t.freetv.fun/live/fei-cui-1.m3u8
-https://t.freetv.fun/live/fei-cui-2.m3u8
-https://t.freetv.fun/live/fei-cui-3.m3u8
-https://t.freetv.fun/live/fei-cui-4.m3u8
-#EXTINF:-1 tvg-id="ch82152.cn@HD",鳳凰衛視中文
-https://t.freetv.fun/live/feng-huang-zhong-wen-1.php
-https://t.freetv.fun/live/feng-huang-wei-shi-zhong-wen.m3u8
-https://t.freetv.fun/live/feng-huang-zhong-wen.m3u8
-#EXTINF:-1 tvg-id="hd.cn@HD",鳳凰資訊HD
-https://t.freetv.fun/live/feng-huang-zi-xun.php
-https://t.freetv.fun/live/feng-huang-wei-shi-zi-xun.m3u8
-#EXTINF:-1 tvg-id="ch76957.cn@HD",鳳凰電影
-https://t.freetv.fun/live/feng-huang-dian-ying.m3u8
-https://t.freetv.fun/live/feng-huang-dian-ying-1.m3u8
+# === CCTV ===
+#EXTINF:-1 tvg-id="CCTV1.cn@HD",CCTV-1 (1080p)
+http://69.30.245.50/live/cctv1.m3u8
+#EXTINF:-1 tvg-id="CCTV1.cn@SD",CCTV-1 (720p)
+http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-id="CCTV11.cn@SD",CCTV-11
+https://xykt-fix.github.io/play/a02b/index.m3u8
+#EXTINF:-1 tvg-id="CCTV15.cn@SD",CCTV-15 (1080p)
+https://xykt-fix.github.io/play/a02e/index.m3u8
+#EXTINF:-1 tvg-id="CCTV16.cn@HD",CCTV-16 (1080p)
+http://74.91.26.218:82/live/cctv16hd.m3u8
+#EXTINF:-1 tvg-id="CCTV9.cn@SD",CCTV-9 (576i)
+https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
+https://english-livebkali.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD",CGTN Documentary (1080p)
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTNFrench.cn@SD",CGTN French (1080p)
+http://145.239.5.177/214/index.m3u8
+
+# === 香港频道 ===
+#EXTINF:-1 tvg-id="RTHKTV31.hk@SD",RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+
+# === 省级卫视 ===
+#EXTINF:-1 tvg-id="BreadTV.cn@SD",Bread TV面包台 (720p)
+https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+#EXTINF:-1 tvg-id="GuangzhouTV.cn@SD",Guangzhou TV
+https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+#EXTINF:-1 tvg-id="HebeiTV.cn@SD",Hebei TV (2160p)
+https://event.pull.hebtv.com/live/live101.m3u8
+#EXTINF:-1 tvg-id="HunanTV.cn@SD",Hunan TV (2160p)
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 tvg-id="VoATVChina.cn@SD",VOA美国之音 (1080p)
+https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+#EXTINF:-1 tvg-id="XinjiangTV1.cn@SD",Xinjiang TV 1
+https://p8.vzan.com/218800995/242196610130883766/live.m3u8?zbid=218800995&tpid=208366456
+#EXTINF:-1 tvg-id="XinjiangTV2.cn@SD",Xinjiang TV 2
+http://110.153.180.106:55555/out_3/index.m3u8
+#EXTINF:-1 tvg-id="XinjiangTV2.cn@SD",Xinjiang TV 2
+https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
+#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
+http://110.153.180.106:55555/out_2/index.m3u8
+#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
+http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
+http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
+#EXTINF:-1 tvg-id="XinjiangTV8.cn@SD",Xinjiang TV 8
+http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD",Zhejiang TV International
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+#EXTINF:-1 tvg-id="",福州广播电视台新闻综合频道 (FZTV-1) (1080p)
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 tvg-id="",福州广播电视台都市生活频道 (FZTV-3) (1080p)
+http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 tvg-id="",福州电视台少儿频道 (FZTV-少儿) (1080p)
+http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
+
+# === 其他频道 ===
+#EXTINF:-1 tvg-id="HarbinComprehensiveNewsChannel.cn@SD",Harbin Comprehensive News Channel
+https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
+#EXTINF:-1 tvg-id="HarbinMovieChannel.cn@SD",Harbin Movie Channel
+https://stream.hrbtv.net/yspd/playlist.m3u8
+#EXTINF:-1 tvg-id="",上虞1新闻综合 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 tvg-id="",上虞3新商都 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
+#EXTINF:-1 tvg-id="",上虞經濟文化 (720p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+#EXTINF:-1 tvg-id="",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="",余姚姚江文化 (576p)
+https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+#EXTINF:-1 tvg-id="",余姚新闻综合 (576p)
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 tvg-id="",四川 Ⅰ 巴中综合台 (1080p) [Not 24/7]
+http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
+#EXTINF:-1 tvg-id="",新昌新聞綜合 (1080p) [Not 24/7]
+https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
+#EXTINF:-1 tvg-id="",武进新闻 (576p) [Not 24/7]
+https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 tvg-id="",武进生活 (576p) [Not 24/7]
+https://live.wjyanghu.com/live/CH2.m3u8
+#EXTINF:-1 tvg-id="",江津新闻综合 (480p)
+http://222.179.155.21:1935/ch1.m3u8
+#EXTINF:-1 tvg-id="",江津经济生活 (480p)
+http://222.179.155.21:1935/ch0.m3u8
+#EXTINF:-1 tvg-id="",浙江国际
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-id="",浙江教科
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-id="",浙江新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-id="",浙江民生
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-id="",浙江经济
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-id="",浙江钱江
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-id="",荣昌综合 (404p) [Not 24/7]
+http://183.64.181.25:40023/rongchang01.m3u8
+#EXTINF:-1 tvg-id="",靖江新闻綜合 (480p) [Not 24/7]
+http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
+#EXTINF:-1 tvg-id="HebiNewsChannel.cn@SD",鹤壁新闻综合 (480p) [Not 24/7]
+http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
