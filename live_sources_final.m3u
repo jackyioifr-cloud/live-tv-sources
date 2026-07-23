@@ -3,19 +3,65 @@
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
 # 统计: 总测试=164, 通过=43, 失败=121, 过滤=393
 
-# === CCTV ===
-#EXTINF:-1 tvg-id="CCTV11.cn@SD",CCTV-11
-https://xykt-fix.github.io/play/a02b/index.m3u8
-#EXTINF:-1 tvg-id="CCTV15.cn@SD",CCTV-15 (1080p)
-https://xykt-fix.github.io/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn@SD",CCTV-9 (576i)
-https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
+# === CCTV (境外可用) ===
+#EXTINF:-1 tvg-id="CCTV1.cn@HD",CCTV-1 (1080p)
+https://t.freetv.fun/live/cctv1-6.m3u8
+#EXTINF:-1 tvg-id="CCTV2.cn@HD",CCTV-2 (1080p)
+https://t.freetv.fun/live/cctv2-1.m3u8
+#EXTINF:-1 tvg-id="CCTV3.cn@HD",CCTV-3 (1080p)
+https://t.freetv.fun/live/cctv3-1.m3u8
+#EXTINF:-1 tvg-id="CCTV4.cn@HD",CCTV-4 (1080p)
+https://t.freetv.fun/live/cctv4-1.m3u8
+#EXTINF:-1 tvg-id="CCTV4FHD.cn@HD",CCTV-4 FHD
+https://t.freetv.fun/live/cctv4-2.m3u8
+#EXTINF:-1 tvg-id="CCTV4K.cn@HD",CCTV-4K (2160p)
+https://t.freetv.fun/live/cctv-4kgao-qing.m3u8
+#EXTINF:-1 tvg-id="CCTV4EA.cn@HD",CCTV-4 中文国际欧洲
+https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji.m3u8
+#EXTINF:-1 tvg-id="CCTV4AM.cn@HD",CCTV-4 中文国际美洲
+https://t.freetv.fun/live/cctv4zhong-wen-guo-ji.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn@HD",CCTV-5 (1080p)
+https://t.freetv.fun/live/cctv5.m3u8
+#EXTINF:-1 tvg-id="CCTV5plus.cn@HD",CCTV-5+ (1080p)
+https://t.freetv.fun/live/cctv5-plus-2.m3u8
+#EXTINF:-1 tvg-id="CCTV6.cn@HD",CCTV-6 (1080p)
+https://t.freetv.fun/live/cctv6.m3u8
+#EXTINF:-1 tvg-id="CCTV7.cn@HD",CCTV-7 (1080p)
+https://t.freetv.fun/live/cctv7.m3u8
+#EXTINF:-1 tvg-id="CCTV8.cn@HD",CCTV-8 (1080p)
+https://t.freetv.fun/live/cctv8-2.m3u8
+#EXTINF:-1 tvg-id="CCTV8K.cn@HD",CCTV-8K (2160p)
+https://t.freetv.fun/live/cctv-8-1.m3u8
+#EXTINF:-1 tvg-id="CCTV9.cn@HD",CCTV-9 (1080p)
+https://t.freetv.fun/live/cctv9-1.m3u8
+#EXTINF:-1 tvg-id="CCTV10.cn@HD",CCTV-10 (1080p)
+https://t.freetv.fun/live/cctv10.m3u8
+#EXTINF:-1 tvg-id="CCTV11.cn@HD",CCTV-11 (1080p)
+https://t.freetv.fun/live/cctv11.m3u8
+#EXTINF:-1 tvg-id="CCTV12.cn@HD",CCTV-12 (1080p)
+https://t.freetv.fun/live/cctv12-1.m3u8
+#EXTINF:-1 tvg-id="CCTV13.cn@HD",CCTV-13 (1080p)
+https://t.freetv.fun/live/cctv13-4.m3u8
+#EXTINF:-1 tvg-id="CCTV14.cn@HD",CCTV-14 (1080p)
+https://t.freetv.fun/live/cctv14.m3u8
+#EXTINF:-1 tvg-id="CCTV15.cn@HD",CCTV-15 (1080p)
+https://t.freetv.fun/live/cctv15-2.m3u8
+#EXTINF:-1 tvg-id="CCTV16.cn@HD",CCTV-16 (1080p)
+https://t.freetv.fun/live/cctv16-3.m3u8
+#EXTINF:-1 tvg-id="CCTV17.cn@HD",CCTV-17 (1080p)
+https://t.freetv.fun/live/cctv17-1.m3u8
+#EXTINF:-1 tvg-id="CCTVFirstTheater.cn@HD",CCTV-第一剧场
+https://t.freetv.fun/live/cctvdi-yi-ju-chang-2.m3u8
+#EXTINF:-1 tvg-id="CCTVFengYunSports.cn@HD",CCTV-风云足球
+https://t.freetv.fun/live/cctv-feng-yun-zu-qiu.m3u8
+#EXTINF:-1 tvg-id="CCTVFengYunMusic.cn@HD",CCTV-风云音乐
+https://t.freetv.fun/live/cctv-feng-yun-yin-le-1.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn@HD",CGTN (1080p)
+https://t.freetv.fun/live/cgtn.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@HD",CGTN Documentary (1080p)
+https://t.freetv.fun/live/cgtn-documentary.m3u8
+#EXTINF:-1 tvg-id="CGTNEnglish.cn@HD",CGTN English
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
-https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD",CGTN Documentary (1080p)
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 
 # === 香港频道 (境外可用) ===
 #EXTINF:-1 tvg-id="PhoenixChinese.hk@HD",Phoenix Chinese (凤凰卫视中文)
