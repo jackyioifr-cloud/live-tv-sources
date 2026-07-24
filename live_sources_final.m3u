@@ -1,191 +1,203 @@
-#EXTM3U
-# 验证直播源 2026-07-24 00:11 | 境外可用
+#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_lite.xml"
+# 直播源 (境外可用) - 完全基于 freetv.fun 测试
 # 订阅: https://raw.githubusercontent.com/jackyioifr-cloud/live-tv-sources/main/live_sources_final.m3u
-# 统计: 总测试=557, 通过=50, 失败=430, 过滤=77
+# 重建日期: 2026-07-24
+# 数据源:
+#   - https://freetv.fun/test_channels_china_new.m3u (CCTV + 省级卫视)
+#   - https://freetv.fun/test_channels_hong_kong_new.m3u (香港频道)
 
 # === CCTV ===
-#EXTINF:-1 tvg-id="CCTV1.cn@HD",CCTV-1 (1080p)
-http://69.30.245.50/live/cctv1.m3u8
-#EXTINF:-1 tvg-id="CCTV1.cn@SD",CCTV-1 (720p)
-http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-id="CCTV11.cn@SD",CCTV-11
-https://xykt-fix.github.io/play/a02b/index.m3u8
-#EXTINF:-1 tvg-id="CCTV15.cn@SD",CCTV-15 (1080p)
-https://xykt-fix.github.io/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="CCTV16.cn@HD",CCTV-16 (1080p)
-http://74.91.26.218:82/live/cctv16hd.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn@SD",CCTV-9 (576i)
-https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
-https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@SD",CGTN (1080p)
-https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD",CGTN Documentary (1080p)
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="CGTNFrench.cn@SD",CGTN French (1080p)
-http://145.239.5.177/214/index.m3u8
+#EXTINF:-1 tvg-id="cctv8k.cn@HD",CCTV 8K
+https://t.freetv.fun/live/cctv-8.m3u8
+#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV-戲曲
+https://t.freetv.fun/live/cctv-11xi-qu-3.m3u8
+#EXTINF:-1 tvg-id="cctv1.cn@HD",CCTV1
+https://t.freetv.fun/live/cctv1-2.m3u8
+#EXTINF:-1 tvg-id="cctv10.cn@HD",CCTV10
+https://t.freetv.fun/live/cctv10.m3u8
+#EXTINF:-1 tvg-id="cctv11.cn@HD",CCTV11
+https://t.freetv.fun/live/cctv11.m3u8
+#EXTINF:-1 tvg-id="cctv12.cn@HD",CCTV12
+https://t.freetv.fun/live/cctv12-1.m3u8
+#EXTINF:-1 tvg-id="cctv13.cn@HD",CCTV13
+https://t.freetv.fun/live/cctv13-4.m3u8
+#EXTINF:-1 tvg-id="cctv14.cn@HD",CCTV14
+https://t.freetv.fun/live/cctv14-2.m3u8
+#EXTINF:-1 tvg-id="cctv15.cn@HD",CCTV15
+https://t.freetv.fun/live/cctv15-6.php
+#EXTINF:-1 tvg-id="cctv16.cn@HD",CCTV16
+https://t.freetv.fun/live/cctv16-1.m3u8
+#EXTINF:-1 tvg-id="cctv17.cn@HD",CCTV17
+https://t.freetv.fun/live/cctv17-5.m3u8
+#EXTINF:-1 tvg-id="cctv2.cn@HD",CCTV2
+https://t.freetv.fun/live/cctv2.php
+#EXTINF:-1 tvg-id="cctv3.cn@HD",CCTV3
+https://t.freetv.fun/live/cctv3.m3u8
+#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4
+https://t.freetv.fun/live/cctv4-3.php
+#EXTINF:-1 tvg-id="cctv4fhd.cn@HD",CCTV4 FHD
+https://t.freetv.fun/live/cctv4k.m3u8
+#EXTINF:-1 tvg-id="cctv4k.cn@HD",CCTV4K
+https://t.freetv.fun/live/cctv-4kgao-qing-2.m3u8
+#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4中文國際歐洲
+https://t.freetv.fun/live/cctv-4zhong-wen-guo-ji.m3u8
+#EXTINF:-1 tvg-id="cctv4.cn@HD",CCTV4中文國際美洲
+https://t.freetv.fun/live/cctv4zhong-wen-guo-ji-1.m3u8
+#EXTINF:-1 tvg-id="cctv5.cn@HD",CCTV5
+https://t.freetv.fun/live/cctv5.m3u8
+#EXTINF:-1 tvg-id="cctv5h265.cn@HD",CCTV5(h265)
+https://t.freetv.fun/live/cctv52.m3u8
+#EXTINF:-1 tvg-id="cctv5.cn@HD",CCTV5+
+https://t.freetv.fun/live/cctv5-plus.m3u8
+#EXTINF:-1 tvg-id="cctv5backup.cn@HD",CCTV5+(backup)
+https://t.freetv.fun/live/cctv5-plus-1.m3u8
+#EXTINF:-1 tvg-id="cctv6.cn@HD",CCTV6
+https://t.freetv.fun/live/cctv6.m3u8
+#EXTINF:-1 tvg-id="cctv7.cn@HD",CCTV7
+https://t.freetv.fun/live/cctv-4kchao-gao-qing.m3u8
+#EXTINF:-1 tvg-id="cctv8.cn@HD",CCTV8
+https://t.freetv.fun/live/cctv8.m3u8
+#EXTINF:-1 tvg-id="cctv9.cn@HD",CCTV9
+https://t.freetv.fun/live/cctv9.m3u8
+#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV第一劇場
+https://t.freetv.fun/live/cctvdi-yi-ju-chang-2.m3u8
+#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV風雲足球
+https://t.freetv.fun/live/cctv-feng-yun-zu-qiu.m3u8
+#EXTINF:-1 tvg-id="cctv.cn@HD",CCTV風雲音樂
+https://t.freetv.fun/live/cctv-feng-yun-yin-le-1.m3u8
+#EXTINF:-1 tvg-id="cgtn.cn@HD",CGTN
+https://t.freetv.fun/live/cgtn-1.m3u8
+#EXTINF:-1 tvg-id="cgtndocumentary.cn@HD",CGTN Documentary
+https://t.freetv.fun/live/cgtn-documentary-1080p.m3u8
+#EXTINF:-1 tvg-id="cgtnespaol.cn@HD",CGTN Español
+https://t.freetv.fun/live/cgtn-espanol.m3u8
+#EXTINF:-1 tvg-id="cgtnfranais.cn@HD",CGTN Français
+https://t.freetv.fun/live/cgtn-francais.m3u8
+#EXTINF:-1 tvg-id="cgtnp.cn@HD",CGTN Pусский
+https://t.freetv.fun/live/cgtn-russkii-1.m3u8
 
-# === 香港频道 ===
-#EXTINF:-1 tvg-id="RTHKTV31.hk@SD",RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+# === HK 香港频道 (境外可用) ===
+#EXTINF:-1 tvg-id="animaxhk.hk@HD",Animax(HK)
+https://t.freetv.fun/live/cctv-8dian-shi-ju.m3u8
+#EXTINF:-1 tvg-id="c.hk@HD",C+頻道
+https://t.freetv.fun/live/fifa-plus-his.m3u8
+#EXTINF:-1 tvg-id="cctv1rthk33.hk@HD",CCTV1(RTHK33)
+https://t.freetv.fun/live/cctv-4kchao-gao-qing-1.m3u8
+#EXTINF:-1 tvg-id="discoverykids.hk@HD",Discovery Kids
+https://t.freetv.fun/live/discovery-kids-1.m3u8
+#EXTINF:-1 tvg-id="moviemovie.hk@HD",MOVIE MOVIE
+https://t.freetv.fun/live/mytime-movie-network-2.m3u8
+#EXTINF:-1 tvg-id="now.hk@HD",NOW 星影臺
+https://t.freetv.fun/live/nowxing-ying.m3u8
+#EXTINF:-1 tvg-id="now.hk@HD",NOW爆谷台
+https://t.freetv.fun/live/nowbao-gu.m3u8
+#EXTINF:-1 tvg-id="rthk31.hk@HD",RTHK31
+https://t.freetv.fun/live/rthk31.php
+#EXTINF:-1 tvg-id="rthk32.hk@HD",RTHK32
+https://t.freetv.fun/live/rthk32.php
+#EXTINF:-1 tvg-id="sportsplus1.hk@HD",Sports Plus 1
+https://t.freetv.fun/live/cowboy-plus-sports.m3u8
+#EXTINF:-1 tvg-id="tvbplus.hk@HD",TVB Plus
+https://t.freetv.fun/live/atv-plus.m3u8
+#EXTINF:-1 tvg-id="tvb.hk@HD",TVB 亞洲武俠
+https://t.freetv.fun/live/asian.m3u8
+#EXTINF:-1 tvg-id="tvb.hk@HD",TVB星河(粵)
+https://t.freetv.fun/live/tvbxing-he.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",周星馳專輯
+https://t.freetv.fun/live/zhou-xing-chi-dian-ying-4.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",周潤發專輯
+https://t.freetv.fun/live/zhou-run-fa-dian-ying-4.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",明珠
+https://t.freetv.fun/live/ming-zhu-tai-1.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",星空衛視
+https://t.freetv.fun/live/xing-kong-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",林正英
+https://t.freetv.fun/live/lin-zheng-ying-ying-yuan-4.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",翡翠台
+https://t.freetv.fun/live/fei-cui-tai.m3u8
+#EXTINF:-1 tvg-id="fhd.hk@HD",鳳凰衛視FHD
+https://t.freetv.fun/live/feng-huang-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",鳳凰衛視中文
+https://t.freetv.fun/live/feng-huang-wei-shi-zhong-wen.m3u8
+#EXTINF:-1 tvg-id="hd.hk@HD",鳳凰資訊HD
+https://t.freetv.fun/live/feng-huang-wei-shi-zi-xun.m3u8
+#EXTINF:-1 tvg-id="ch.hk@HD",鳳凰電影
+https://t.freetv.fun/live/feng-huang-dian-ying.m3u8
 
-# === PROVINCIAL 省级卫视 (境外可用, 最高画质) ===
-#EXTINF:-1 tvg-id="三沙衛視.cn@HD",三沙衛視
+# === PROVINCIAL 省级卫视 (境外可用) ===
+#EXTINF:-1 tvg-id="ch.cn@HD",三沙衛視
 https://t.freetv.fun/live/san-sha-wei-shi.m3u8
-#EXTINF:-1 tvg-id="內蒙古衛視.cn@HD",內蒙古衛視
-https://t.freetv.fun/live/nei-meng-gu-wei-shi-6.m3u8
-#EXTINF:-1 tvg-id="兵團衛視.cn@HD",兵團衛視
-https://t.freetv.fun/live/bing-tuan-wei-shi-11.m3u8
-#EXTINF:-1 tvg-id="北京衛視.cn@HD",北京衛視
-https://t.freetv.fun/live/bei-jing-wei-shi-9.m3u8
-#EXTINF:-1 tvg-id="吉林衛視.cn@HD",吉林衛視
-https://t.freetv.fun/live/ji-lin-wei-shi-7.m3u8
-#EXTINF:-1 tvg-id="四川衛視.cn@HD",四川衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",內蒙古衛視
+https://t.freetv.fun/live/nei-meng-gu-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",兵團衛視
+https://t.freetv.fun/live/bing-tuan-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",北京衛視
+https://t.freetv.fun/live/bei-jing-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",吉林衛視
+https://t.freetv.fun/live/ji-lin-wei-shi-6.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",四川衛視
 https://t.freetv.fun/live/si-chuan-wei-shi-2.m3u8
-#EXTINF:-1 tvg-id="大灣區衛視.cn@HD",大灣區衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",大灣區衛視
 https://t.freetv.fun/live/da-wan-qu-wei-shi-6.m3u8
-#EXTINF:-1 tvg-id="天津衛視.cn@HD",天津衛視
-https://t.freetv.fun/live/tian-jin-wei-shi.m3u8
-#EXTINF:-1 tvg-id="安徽衛視.cn@HD",安徽衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",天津衛視
+https://t.freetv.fun/live/tian-jin-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",安徽衛視
 https://t.freetv.fun/live/an-hui-wei-shi-1.m3u8
-#EXTINF:-1 tvg-id="寧夏衛視.cn@HD",寧夏衛視
-https://t.freetv.fun/live/zhu-xia-wei-shi-11.m3u8
-#EXTINF:-1 tvg-id="山東衛視.cn@HD",山東衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",寧夏衛視
+https://t.freetv.fun/live/zhu-xia-wei-shi-4.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",山東衛視
 https://t.freetv.fun/live/shan-dong-wei-shi-2.m3u8
-#EXTINF:-1 tvg-id="山西衛視.cn@HD",山西衛視
-https://t.freetv.fun/live/shan-xi-wei-shi-10.m3u8
-#EXTINF:-1 tvg-id="廈門衛視.cn@HD",廈門衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",山西衛視
+https://t.freetv.fun/live/shan-xi-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",廈門衛視
 https://t.freetv.fun/live/sha-men-wei-shi-1.m3u8
-#EXTINF:-1 tvg-id="廣東衛視.cn@HD",廣東衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",廣東衛視
 https://t.freetv.fun/live/yan-dong-wei-shi.m3u8
-#EXTINF:-1 tvg-id="廣西衛視.cn@HD",廣西衛視
-https://t.freetv.fun/live/yan-xi-wei-shi-21.m3u8
-#EXTINF:-1 tvg-id="延邊衛視.cn@HD",延邊衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",廣西衛視
+https://t.freetv.fun/live/yan-xi-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",延邊衛視
 https://t.freetv.fun/live/yan-bian-wei-shi.m3u8
-#EXTINF:-1 tvg-id="新疆衛視.cn@HD",新疆衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",新疆衛視
 https://t.freetv.fun/live/xin-jiang-wei-shi-1.m3u8
-#EXTINF:-1 tvg-id="東南衛視.cn@HD",東南衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",東南衛視
 https://t.freetv.fun/live/dong-nan-wei-shi-3.m3u8
-#EXTINF:-1 tvg-id="東方衛視.cn@HD",東方衛視
-https://t.freetv.fun/live/dong-fang-wei-shi-3.m3u8
-#EXTINF:-1 tvg-id="江蘇衛視.cn@HD",江蘇衛視
-https://t.freetv.fun/live/jiang-su-wei-shi-10.m3u8
-#EXTINF:-1 tvg-id="江西衛視.cn@HD",江西衛視
-https://t.freetv.fun/live/jiang-xi-wei-shi.m3u8
-#EXTINF:-1 tvg-id="河北衛視.cn@HD",河北衛視
-https://t.freetv.fun/live/he-bei-wei-shi-15.m3u8
-#EXTINF:-1 tvg-id="河南衛視.cn@HD",河南衛視
-https://t.freetv.fun/live/he-nan-wei-shi-17.m3u8
-#EXTINF:-1 tvg-id="浙江衛視.cn@HD",浙江衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",東方衛視
+https://t.freetv.fun/live/dong-fang-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",江蘇衛視
+https://t.freetv.fun/live/jiang-su-wei-shi-4.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",江西衛視
+https://t.freetv.fun/live/jiang-xi-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",河北衛視
+https://t.freetv.fun/live/he-bei-wei-shi-5.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",河南衛視
+https://t.freetv.fun/live/he-nan-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",浙江衛視
 https://t.freetv.fun/live/zhe-jiang-wei-shi-3.m3u8
-#EXTINF:-1 tvg-id="海南衛視.cn@HD",海南衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",海南衛視
 https://t.freetv.fun/live/hai-nan-wei-shi.m3u8
-#EXTINF:-1 tvg-id="海峽衛視.cn@HD",海峽衛視
-https://t.freetv.fun/live/hai-xia-wei-shi-3.m3u8
-#EXTINF:-1 tvg-id="深圳衛視.cn@HD",深圳衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",海峽衛視
+https://t.freetv.fun/live/hai-xia-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",深圳衛視
 https://t.freetv.fun/live/shen-zhen-wei-shi-7.m3u8
-#EXTINF:-1 tvg-id="湖北衛視.cn@HD",湖北衛視
-https://t.freetv.fun/live/hu-bei-wei-shi-13.m3u8
-#EXTINF:-1 tvg-id="湖南衛視.cn@HD",湖南衛視
-https://t.freetv.fun/live/hu-nan-wei-shi-6.m3u8
-#EXTINF:-1 tvg-id="甘肅衛視.cn@HD",甘肅衛視
-https://t.freetv.fun/live/gan-su-wei-shi.m3u8
-#EXTINF:-1 tvg-id="西藏衛視.cn@HD",西藏衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",湖北衛視
+https://t.freetv.fun/live/hu-bei-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",湖南衛視
+https://t.freetv.fun/live/hu-nan-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",甘肅衛視
+https://t.freetv.fun/live/gan-su-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",西藏衛視
 https://t.freetv.fun/live/xi-cang-wei-shi-5.m3u8
-#EXTINF:-1 tvg-id="貴州衛視.cn@HD",貴州衛視
-https://t.freetv.fun/live/gui-zhou-wei-shi-4.m3u8
-#EXTINF:-1 tvg-id="農林衛視.cn@HD",農林衛視
+#EXTINF:-1 tvg-id="ch.cn@HD",貴州衛視
+https://t.freetv.fun/live/gui-zhou-wei-shi-10.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",農林衛視
 https://t.freetv.fun/live/zhong-guo-nong-lin-wei-shi.m3u8
-#EXTINF:-1 tvg-id="遼寧衛視.cn@HD",遼寧衛視
-https://t.freetv.fun/live/liao-zhu-wei-shi-23.m3u8
-#EXTINF:-1 tvg-id="重慶衛視.cn@HD",重慶衛視
-https://t.freetv.fun/live/zhong-qing-wei-shi-17.m3u8
-#EXTINF:-1 tvg-id="陝西衛視.cn@HD",陝西衛視
-https://t.freetv.fun/live/shan-xi-wei-shi-8.m3u8
-#EXTINF:-1 tvg-id="雲南衛視.cn@HD",雲南衛視
-https://t.freetv.fun/live/yun-nan-wei-shi-3.m3u8
-#EXTINF:-1 tvg-id="黑龍江衛視.cn@HD",黑龍江衛視
-https://t.freetv.fun/live/hei-long-jiang-wei-shi-3.m3u8
-
-# === 省级卫视 (境内源, cron job 自动维护) ===
-
-#EXTINF:-1 tvg-id="BreadTV.cn@SD",Bread TV面包台 (720p)
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="GuangzhouTV.cn@SD",Guangzhou TV
-https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn@SD",Hebei TV (2160p)
-https://event.pull.hebtv.com/live/live101.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn@SD",Hunan TV (2160p)
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 tvg-id="VoATVChina.cn@SD",VOA美国之音 (1080p)
-https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn@SD",Xinjiang TV 1
-https://p8.vzan.com/218800995/242196610130883766/live.m3u8?zbid=218800995&tpid=208366456
-#EXTINF:-1 tvg-id="XinjiangTV2.cn@SD",Xinjiang TV 2
-http://110.153.180.106:55555/out_3/index.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV2.cn@SD",Xinjiang TV 2
-https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
-#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
-http://110.153.180.106:55555/out_2/index.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
-http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 tvg-id="XinjiangTV3.cn@SD",Xinjiang TV 3
-http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV8.cn@SD",Xinjiang TV 8
-http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD",Zhejiang TV International
-https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-#EXTINF:-1 tvg-id="",福州广播电视台新闻综合频道 (FZTV-1) (1080p)
-http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-#EXTINF:-1 tvg-id="",福州广播电视台都市生活频道 (FZTV-3) (1080p)
-http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-#EXTINF:-1 tvg-id="",福州电视台少儿频道 (FZTV-少儿) (1080p)
-http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-
-# === 其他频道 ===
-#EXTINF:-1 tvg-id="HarbinComprehensiveNewsChannel.cn@SD",Harbin Comprehensive News Channel
-https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
-#EXTINF:-1 tvg-id="HarbinMovieChannel.cn@SD",Harbin Movie Channel
-https://stream.hrbtv.net/yspd/playlist.m3u8
-#EXTINF:-1 tvg-id="",上虞1新闻综合 (720p) [Not 24/7]
-https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
-#EXTINF:-1 tvg-id="",上虞3新商都 (720p) [Not 24/7]
-https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
-#EXTINF:-1 tvg-id="",上虞經濟文化 (720p) [Not 24/7]
-https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
-#EXTINF:-1 tvg-id="",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-id="",余姚姚江文化 (576p)
-https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
-#EXTINF:-1 tvg-id="",余姚新闻综合 (576p)
-https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
-#EXTINF:-1 tvg-id="",四川 Ⅰ 巴中综合台 (1080p) [Not 24/7]
-http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
-#EXTINF:-1 tvg-id="",新昌新聞綜合 (1080p) [Not 24/7]
-https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
-#EXTINF:-1 tvg-id="",武进新闻 (576p) [Not 24/7]
-https://live.wjyanghu.com/live/CH1.m3u8
-#EXTINF:-1 tvg-id="",武进生活 (576p) [Not 24/7]
-https://live.wjyanghu.com/live/CH2.m3u8
-#EXTINF:-1 tvg-id="",江津新闻综合 (480p)
-http://222.179.155.21:1935/ch1.m3u8
-#EXTINF:-1 tvg-id="",江津经济生活 (480p)
-http://222.179.155.21:1935/ch0.m3u8
-#EXTINF:-1 tvg-id="",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-id="",浙江教科
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-id="",浙江新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-id="",浙江民生
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-id="",浙江经济
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-id="",浙江钱江
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-id="",荣昌综合 (404p) [Not 24/7]
-http://183.64.181.25:40023/rongchang01.m3u8
-#EXTINF:-1 tvg-id="",靖江新闻綜合 (480p) [Not 24/7]
-http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
-#EXTINF:-1 tvg-id="HebiNewsChannel.cn@SD",鹤壁新闻综合 (480p) [Not 24/7]
-http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",遼寧衛視
+https://t.freetv.fun/live/liao-zhu-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",重慶衛視
+https://t.freetv.fun/live/zhong-qing-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",陝西衛視
+https://t.freetv.fun/live/shan-xi-wei-shi.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",雲南衛視
+https://t.freetv.fun/live/yun-nan-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="ch.cn@HD",黑龍江衛視
+https://t.freetv.fun/live/hei-long-jiang-wei-shi-2.m3u8
