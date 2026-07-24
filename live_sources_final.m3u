@@ -29,7 +29,86 @@ http://145.239.5.177/214/index.m3u8
 #EXTINF:-1 tvg-id="RTHKTV31.hk@SD",RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 
-# === 省级卫视 ===
+# === PROVINCIAL 省级卫视 (境外可用, 最高画质) ===
+#EXTINF:-1 tvg-id="三沙衛視.cn@HD",三沙衛視
+https://t.freetv.fun/live/san-sha-wei-shi.m3u8
+#EXTINF:-1 tvg-id="內蒙古衛視.cn@HD",內蒙古衛視
+https://t.freetv.fun/live/nei-meng-gu-wei-shi-6.m3u8
+#EXTINF:-1 tvg-id="兵團衛視.cn@HD",兵團衛視
+https://t.freetv.fun/live/bing-tuan-wei-shi-11.m3u8
+#EXTINF:-1 tvg-id="北京衛視.cn@HD",北京衛視
+https://t.freetv.fun/live/bei-jing-wei-shi-9.m3u8
+#EXTINF:-1 tvg-id="吉林衛視.cn@HD",吉林衛視
+https://t.freetv.fun/live/ji-lin-wei-shi-7.m3u8
+#EXTINF:-1 tvg-id="四川衛視.cn@HD",四川衛視
+https://t.freetv.fun/live/si-chuan-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="大灣區衛視.cn@HD",大灣區衛視
+https://t.freetv.fun/live/da-wan-qu-wei-shi-6.m3u8
+#EXTINF:-1 tvg-id="天津衛視.cn@HD",天津衛視
+https://t.freetv.fun/live/tian-jin-wei-shi.m3u8
+#EXTINF:-1 tvg-id="安徽衛視.cn@HD",安徽衛視
+https://t.freetv.fun/live/an-hui-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="寧夏衛視.cn@HD",寧夏衛視
+https://t.freetv.fun/live/zhu-xia-wei-shi-11.m3u8
+#EXTINF:-1 tvg-id="山東衛視.cn@HD",山東衛視
+https://t.freetv.fun/live/shan-dong-wei-shi-2.m3u8
+#EXTINF:-1 tvg-id="山西衛視.cn@HD",山西衛視
+https://t.freetv.fun/live/shan-xi-wei-shi-10.m3u8
+#EXTINF:-1 tvg-id="廈門衛視.cn@HD",廈門衛視
+https://t.freetv.fun/live/sha-men-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="廣東衛視.cn@HD",廣東衛視
+https://t.freetv.fun/live/yan-dong-wei-shi.m3u8
+#EXTINF:-1 tvg-id="廣西衛視.cn@HD",廣西衛視
+https://t.freetv.fun/live/yan-xi-wei-shi-21.m3u8
+#EXTINF:-1 tvg-id="延邊衛視.cn@HD",延邊衛視
+https://t.freetv.fun/live/yan-bian-wei-shi.m3u8
+#EXTINF:-1 tvg-id="新疆衛視.cn@HD",新疆衛視
+https://t.freetv.fun/live/xin-jiang-wei-shi-1.m3u8
+#EXTINF:-1 tvg-id="東南衛視.cn@HD",東南衛視
+https://t.freetv.fun/live/dong-nan-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="東方衛視.cn@HD",東方衛視
+https://t.freetv.fun/live/dong-fang-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="江蘇衛視.cn@HD",江蘇衛視
+https://t.freetv.fun/live/jiang-su-wei-shi-10.m3u8
+#EXTINF:-1 tvg-id="江西衛視.cn@HD",江西衛視
+https://t.freetv.fun/live/jiang-xi-wei-shi.m3u8
+#EXTINF:-1 tvg-id="河北衛視.cn@HD",河北衛視
+https://t.freetv.fun/live/he-bei-wei-shi-15.m3u8
+#EXTINF:-1 tvg-id="河南衛視.cn@HD",河南衛視
+https://t.freetv.fun/live/he-nan-wei-shi-17.m3u8
+#EXTINF:-1 tvg-id="浙江衛視.cn@HD",浙江衛視
+https://t.freetv.fun/live/zhe-jiang-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="海南衛視.cn@HD",海南衛視
+https://t.freetv.fun/live/hai-nan-wei-shi.m3u8
+#EXTINF:-1 tvg-id="海峽衛視.cn@HD",海峽衛視
+https://t.freetv.fun/live/hai-xia-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="深圳衛視.cn@HD",深圳衛視
+https://t.freetv.fun/live/shen-zhen-wei-shi-7.m3u8
+#EXTINF:-1 tvg-id="湖北衛視.cn@HD",湖北衛視
+https://t.freetv.fun/live/hu-bei-wei-shi-13.m3u8
+#EXTINF:-1 tvg-id="湖南衛視.cn@HD",湖南衛視
+https://t.freetv.fun/live/hu-nan-wei-shi-6.m3u8
+#EXTINF:-1 tvg-id="甘肅衛視.cn@HD",甘肅衛視
+https://t.freetv.fun/live/gan-su-wei-shi.m3u8
+#EXTINF:-1 tvg-id="西藏衛視.cn@HD",西藏衛視
+https://t.freetv.fun/live/xi-cang-wei-shi-5.m3u8
+#EXTINF:-1 tvg-id="貴州衛視.cn@HD",貴州衛視
+https://t.freetv.fun/live/gui-zhou-wei-shi-4.m3u8
+#EXTINF:-1 tvg-id="農林衛視.cn@HD",農林衛視
+https://t.freetv.fun/live/zhong-guo-nong-lin-wei-shi.m3u8
+#EXTINF:-1 tvg-id="遼寧衛視.cn@HD",遼寧衛視
+https://t.freetv.fun/live/liao-zhu-wei-shi-23.m3u8
+#EXTINF:-1 tvg-id="重慶衛視.cn@HD",重慶衛視
+https://t.freetv.fun/live/zhong-qing-wei-shi-17.m3u8
+#EXTINF:-1 tvg-id="陝西衛視.cn@HD",陝西衛視
+https://t.freetv.fun/live/shan-xi-wei-shi-8.m3u8
+#EXTINF:-1 tvg-id="雲南衛視.cn@HD",雲南衛視
+https://t.freetv.fun/live/yun-nan-wei-shi-3.m3u8
+#EXTINF:-1 tvg-id="黑龍江衛視.cn@HD",黑龍江衛視
+https://t.freetv.fun/live/hei-long-jiang-wei-shi-3.m3u8
+
+# === 省级卫视 (境内源, cron job 自动维护) ===
+
 #EXTINF:-1 tvg-id="BreadTV.cn@SD",Bread TV面包台 (720p)
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD",Guangzhou TV
